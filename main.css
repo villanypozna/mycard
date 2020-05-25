@@ -78,3 +78,27 @@ body {
 #nametitle,#profession, #location{
 text-align: center;
 }
+#contactlinks {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+#lista {
+  text-align: center;
+  filter:sepia(100%) saturate(10);
+}
+
+.photo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 60px;
+}
