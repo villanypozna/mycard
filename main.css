@@ -1,0 +1,80 @@
+
+* {
+  margin: 3 auto;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/*
+.profile-card {
+  background-color: hsla(60, 100%, 50%, .4);
+}
+
+.head {
+  background-color: hsla(170, 100%, 50%, .4);
+}
+
+.content {
+  background-color: hsla(120, 100%, 50%, .4);
+}
+
+.profile-image {
+  background-color: hsla(300, 100%, 50%, .4);
+}
+
+.name-headline {
+  background-color: hsla(360, 100%, 50%, .4);
+}
+
+.about {
+  background-color: hsla(200, 100%, 50%, .4);
+}
+
+.links {
+  background-color: hsla(250, 100%, 50%, .4);
+}
+*/
+
+.right {
+  float: right;
+}
+
+.mycard {
+    max-width: calc(100vw - 10px);
+  
+}
+
+.profile {
+  height: 100%;
+  width: 33%;
+}
+.middle {
+  height: 100%;
+  width: 34%;
+}
+.content {
+  height: 100%;
+  width: 33%;
+}
+
+body {
+  background-image: url("assets/louvre.jpg") ;
+  background-size: cover;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: lightgoldenrodyellow;
+}
+#nametitle,#profession{
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  
+}
+#name{
+  font-size: 5em;
+  font-weight:400;
+}
+#nametitle,#profession, #location{
+text-align: center;
+}
