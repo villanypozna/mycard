@@ -98,7 +98,7 @@ li {
 
 #lista {
   text-align: center;
-  filter:sepia(100%) saturate(10);
+  filter:brightness(100);
 }
 
 .photo {
